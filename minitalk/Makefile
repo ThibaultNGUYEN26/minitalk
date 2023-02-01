@@ -61,11 +61,11 @@ client_bonus: ${OBJS} ${OBJECTS}/client_bonus.o
 	@${CC} ${CFLAGS} ${CINCLUDES} -o client ${OBJS} ${OBJECTS}/client_bonus.o
 
 clean:
-	@echo ${GREEN}"● Supression des fichiers binaires (.o)..."$(EOC)
+	@echo ${RED}"● Supression des fichiers binaires (.o)..."$(EOC)
 	@rm -rf ${OBJECTS}
 
 fclean: clean
-	@echo ${GREEN}"● Supression des executables et librairies..."$(EOC)
+	@echo ${RED}"● Supression des executables et librairies..."$(EOC)
 	@rm -rf server client
 
 re: fclean all
