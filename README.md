@@ -1,3 +1,3 @@
 # minitalk
 Repository of my minitalk project.\
-![](https://progress-bar.dev/0?title=Score)
+![](https://progress-bar.dev/125?title=Score)
